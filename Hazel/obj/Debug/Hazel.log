@@ -1,0 +1,5 @@
+﻿  Application.cpp
+C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Core.h(10,1): fatal error C1189: #error:  Hazel only supports windows!
+  Log.cpp
+C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Core.h(10,1): fatal error C1189: #error:  Hazel only supports windows!
+  Generating Code...
