@@ -4,8 +4,11 @@
 	extern Hazel::Application* Hazel::CreateApplication();
 
 	int main(int argc, char** argv)
-	{
-		printf("Hazel Engine");
+	{	
+		Hazel::Log::Init();
+		HZ_CORE_FATAL("hello world");
+		HZ_ERROR("hey user");	
+
 		Hazel::Application* app = Hazel::CreateApplication();
 		app->Run();
 		delete app;
