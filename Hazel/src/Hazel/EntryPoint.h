@@ -6,8 +6,7 @@
 	int main(int argc, char** argv)
 	{	
 		Hazel::Log::Init();
-		HZ_CORE_CRITICAL("hello world");
-		HZ_ERROR("hey user");
+		HZ_CORE_CRITICAL("HAZEL ENGINE");
 
 		Hazel::Application* app = Hazel::CreateApplication();
 		app->Run();
