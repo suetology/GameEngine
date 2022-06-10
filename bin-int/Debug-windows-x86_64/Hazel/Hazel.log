@@ -1,5 +1,13 @@
-﻿  Application.cpp
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(22,27): warning C4251: 'Hazel::Application::m_Window': class 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>' needs to have dll-interface to be used by clients of class 'Hazel::Application'
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(22): message : see declaration of 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>'
+﻿  hzpch.cpp
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Log.h(19,42): warning C4251: 'Hazel::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Log.h(20,42): warning C4251: 'Hazel::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Application.cpp
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(22,27): warning C4251: 'Hazel::Application::m_Window': class 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>' needs to have dll-interface to be used by clients of class 'Hazel::Application'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(22): message : see declaration of 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>'
+  Log.cpp
+  WindowsWindow.cpp
+  Generating Code...
      Creating library ..\bin\Debug-windows-x86_64\Hazel\Hazel.lib and object ..\bin\Debug-windows-x86_64\Hazel\Hazel.exp
-  Hazel.vcxproj -> C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.dll
+  Hazel.vcxproj -> C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.dll
