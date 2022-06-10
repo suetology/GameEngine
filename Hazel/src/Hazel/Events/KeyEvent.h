@@ -9,7 +9,7 @@ namespace Hazel
 	public:
 		inline int GetKeyCode() { return m_KeyCode; }
 
-		EVENT_CLASS_CATEGORY(Keyboard | Input)
+		EVENT_CLASS_CATEGORY(KeyboardCategory | InputCategory)
 
 	protected:
 		KeyEvent(int keycode)
