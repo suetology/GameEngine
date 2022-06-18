@@ -1,0 +1,2 @@
+cd /d "C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel" &msbuild "Hazel.vcxproj" /t:sdvViewer /p:configuration="Debug" /p:platform="x64" /p:SolutionDir="C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel" 
+exit %errorlevel% 

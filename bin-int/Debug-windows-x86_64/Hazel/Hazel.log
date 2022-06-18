@@ -1,10 +1,10 @@
 ﻿cl : command line warning D9025: overriding '/MTd' with '/MDd'
   ImGuiLayer.cpp
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Layer.h(22,15): warning C4251: 'Hazel::Layer::m_Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Hazel::Layer'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Layer.h(22,15): warning C4251: 'Hazel::Layer::m_Name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Hazel::Layer'
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\LayerStack.h(23,23): warning C4251: 'Hazel::LayerStack::m_Layers': class 'std::vector<Hazel::Layer *,std::allocator<Hazel::Layer *>>' needs to have dll-interface to be used by clients of class 'Hazel::LayerStack'
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\LayerStack.h(19): message : see declaration of 'std::vector<Hazel::Layer *,std::allocator<Hazel::Layer *>>'
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\LayerStack.h(24,33): warning C4251: 'Hazel::LayerStack::m_LayerInsert': class 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' needs to have dll-interface to be used by clients of class 'Hazel::LayerStack'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\LayerStack.h(23,23): warning C4251: 'Hazel::LayerStack::m_Layers': class 'std::vector<Hazel::Layer *,std::allocator<Hazel::Layer *>>' needs to have dll-interface to be used by clients of class 'Hazel::LayerStack'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\LayerStack.h(19): message : see declaration of 'std::vector<Hazel::Layer *,std::allocator<Hazel::Layer *>>'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\LayerStack.h(24,33): warning C4251: 'Hazel::LayerStack::m_LayerInsert': class 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' needs to have dll-interface to be used by clients of class 'Hazel::LayerStack'
           with
           [
               _Ty=Hazel::Layer *
@@ -14,10 +14,14 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
           [
               _Ty=Hazel::Layer *
           ]
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(29,27): warning C4251: 'Hazel::Application::m_Window': class 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>' needs to have dll-interface to be used by clients of class 'Hazel::Application'
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(29): message : see declaration of 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>'
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(63,86): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(63,57): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(29,27): warning C4251: 'Hazel::Application::m_Window': class 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>' needs to have dll-interface to be used by clients of class 'Hazel::Application'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\Application.h(29): message : see declaration of 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>'
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(64,86): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(64,57): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(165,66): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\Hazel\src\Hazel\ImGui\ImGuiLayer.cpp(165,47): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  WindowsWindow.cpp
+  Generating Code...
      Creating library ..\bin\Debug-windows-x86_64\Hazel\Hazel.lib and object ..\bin\Debug-windows-x86_64\Hazel\Hazel.exp
 LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
-  Hazel.vcxproj -> C:\Users\rt\Desktop\Folders\_SECRET\Visual Studio\c++\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.dll
+  Hazel.vcxproj -> C:\Users\vitas\Desktop\Folders\secret_files\Visual Studio\c++\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.dll
