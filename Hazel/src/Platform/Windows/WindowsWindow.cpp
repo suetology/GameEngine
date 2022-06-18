@@ -5,7 +5,9 @@
 #include "Hazel/Events/KeyEvent.h"
 #include "Hazel/Events/MouseEvent.h"
 
-namespace Hazel
+#include "glad/glad.h"
+
+namespace Hazel	
 {
 	static bool s_GLFWInitialized = false;
 
@@ -47,6 +49,7 @@ namespace Hazel
 
 		m_Window = glfwCreateWindow(m_Data.Widht, m_Data.Height, m_Data.Title.c_str(), nullptr, nullptr);
 		glfwMakeContextCurrent(m_Window);
+		int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
 		glfwSetWindowUserPointer(m_Window, &m_Data);
 		SetVSync(true);
 
